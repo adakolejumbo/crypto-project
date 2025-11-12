@@ -3,7 +3,8 @@
 <div align="center">
 <br />
 <a href="https://youtu.be/r47C9c4qCqE" target="_blank">
-<img width="1280" height="720" alt="3 React Projects Tutorial" src="https://github.com/user-attachments/assets/f208a5dc-a6b4-4a90-a3ef-93b9dbc23367" />
+   <img width="1280" height="720" alt="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of 10,000 REACT COMPONENTS (6)" src="https://github.com/user-attachments/assets/c12bf4b8-d348-45cf-ae39-2cd0c819caba" />
+
 </a>
 <br />
 <div>
