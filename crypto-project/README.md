@@ -1,16 +1,112 @@
-# React + Vite
+# Crypto Dashboard 📈
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive cryptocurrency dashboard built with **React** and **Vite**.  
+This application displays real-time cryptocurrency market data, interactive price charts, and detailed coin information in a clean, dark-themed UI.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** (add your Vercel link here once deployed)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📊 **Real-time crypto market data** (via CoinGecko API)
+- 🔍 **Search and filter cryptocurrencies**
+- 📈 **Interactive price charts** using Recharts
+- 🧭 **Multi-page routing** (Home & Coin Details)
+- 🌙 **Dark, dashboard-style UI**
+- 📱 **Fully responsive design**
+- ⚡ **Fast development & builds** with Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React 19
+- **Build Tool:** Vite
+- **Routing:** React Router
+- **Charts:** Recharts
+- **Styling:** Custom CSS (dark dashboard theme)
+- **API:** CoinGecko (public crypto data)
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+
+src/
+├─ api/ # API requests (CoinGecko)
+├─ components/ # Reusable UI components (CryptoCard, etc.)
+├─ pages/ # Page-level components (Home, CoinDetail)
+├─ utils/ # Helper/formatter functions
+├─ index.css # Global styles & theme
+├─ App.jsx # App layout & routing
+└─ main.jsx # React entry point
+
+yaml
+Copy code
+
+---
+
+## 🖥️ Getting Started (Local Development)
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/adakolejumbo/crypto-project.git
+cd crypto-project
+2️⃣ Install dependencies
+bash
+Copy code
+npm install
+3️⃣ Start the development server
+bash
+Copy code
+npm run dev
+Open your browser at:
+
+arduino
+Copy code
+http://localhost:5173
+🏗️ Build for Production
+bash
+Copy code
+npm run build
+To preview the production build locally:
+
+bash
+Copy code
+npm run preview
+🌐 Deployment
+This project is optimized for Vercel.
+
+Push changes to GitHub
+
+Import the repository into Vercel
+
+Vercel automatically builds and deploys the app
+
+For React Router support on refresh, the project includes a Vercel rewrite configuration.
+
+🎨 UI & Design Notes
+Dark-themed dashboard inspired by modern fintech & crypto platforms
+
+Card-based layout with hover animations
+
+Color-coded price changes (green/red)
+
+Smooth transitions and responsive grid layout
+
+📌 Future Improvements
+⏳ Time-range selection for charts (7d / 30d / 1y)
+
+⭐ Watchlist / favorites
+
+🌗 Light/Dark theme toggle
+
+💾 Local caching for API calls
+
+🔐 Authentication for personalized dashboards
+
+👤 Author
+Adakole Jumbo-Ochigbo
+🔗 GitHub: https://github.com/adakolejumbo
+
